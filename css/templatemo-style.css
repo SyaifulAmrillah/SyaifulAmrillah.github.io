@@ -417,6 +417,35 @@ hr {
 
 /* START ABOUT */
 .tm-about {
+  position: relative;
+  overflow: hidden;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.parallax-bg {
+  background: url('../images/nordwood-themes-left-unsplash.jpg');
+  background-size: 130%, contain;
+  background-attachment: fixed;
+  background-position: right 20% bottom 20%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.tm-about-overlay {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.5) 250%, transparent 50%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+}
+/* .tm-about {
   background: url('../images/nordwood-themes-left-unsplash.jpg');
   background-size: 130%, contain;
   background-attachment: fixed;
@@ -424,6 +453,18 @@ hr {
   padding-top: 60px;
   padding-bottom: 100px;
 }
+
+.tm-about-overlay {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.5) 250%, transparent 50%);
+  background-size: 130%, contain;
+  background-attachment: fixed;
+  background-position: right 20% bottom 20%;
+  width: 50%; /* Set width of overlay to cover the right half 
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+} */
 
 /* END ABOUT */
 
