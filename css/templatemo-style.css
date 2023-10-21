@@ -502,6 +502,10 @@ hr {
   margin: 0px 0px 5px 0px;
 }
 
+.popover ul {
+  padding: 0 0 0 15px; /* Menggeser elemen-elemen dalam daftar ke kiri */
+}
+
 /* END RESUME */
 
 /* START ABOUT */
