@@ -619,6 +619,10 @@ hr {
   background: #202020;
 }
 
+.linkedin {
+  background: #0077B5;
+}
+
 .facebook {
   background: #3b5998;
 }
@@ -665,8 +669,8 @@ hr {
 /* START CONTACT */
 .tm-contact {
   text-align: center;
-  padding-top: 80px;
-  padding-bottom: 40px;
+  /* padding-top: 80px; */
+  padding-bottom: 10px;
 }
 
 .form-control {
